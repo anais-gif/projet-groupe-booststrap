@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'gothamblack';
+    src: url('fonts/gotham-black-webfont.woff2') format('woff2'),
+         url('fonts/gotham-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('fonts/gothambold-webfont.woff2') format('woff2'),
+         url('fonts/gothambold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothambook';
+    src: url('font/gothambook-webfont.woff2') format('woff2'),
+    url('font/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'gothamlight';
+    src: url('font/gothambook-webfont.woff2') format('woff2'),
+    url('font/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+                                                    /* DEBUT CSS ANAIS */
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.background_header{
+    background: url("img/background_header.png");
+    min-height: 1080px;
+}
+
+.titreh4 {
+    text-transform: uppercase;
+    font-family:  gothamblack;
+    color: white;
+}
+
+.paragraphe {
+    display: block;
+   font-size: 10px;
+    font-family: gothamblack;
+    color: white;
+    line-height: 18px;
+   margin: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.navigation {
+    width: 100%;
+    list-style-type: none;
+    color: rgb(125, 125, 125);
+    height: 113px;
+    font-family: gothamblack;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: solid;
+}
+
+.menu{
+    display: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50px; 
+}
+
+.le_titre_creatives {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    font-size: 100Px;
+    text-transform:uppercase;
+    color: white;
+    font-family: gothamblack;
+}
+
+.ellipse{
+    display: block;
+    position: absolute;
+    top: 731px;
+    width: 100%;
+    text-align: center;
+}
+
+.scroll_down {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    color: white;
+    top: 700px;
+    font-family: gothamblack;
+}
+
+a{
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    height: 116px;
+    align-content: center;
+    margin: 20px;
+    text-decoration: none; 
+}
+
+a:hover{
+    border-bottom: solid #db5971;
+    padding-bottom: 45px;
+    color: #db5971;
+    opacity: 0.80;
+    transition: 0.5s;
+}
+
+h4:hover{
+    opacity: 0.50;
+}
+    
+.background_color_red {
+    background-color: rgb(210, 18, 66);
+    min-height: 800px;
+}
+
+.we_are {
+    height: 400px;
+    font-size: 50px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    z-index: 2;
+    position: relative;
+    color: white;
+    font-family: gothamblack;
+}
+
+.w {
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 1100px;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: gothamblack;
+    color: #db5971;
+    font-size: 330px;
+    text-align: center;
+}
+
+.colone {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    text-align: center;
+    justify-content: center;
+}
+
+  ul{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.icone_one::before {
+    content: url(img/icone_one.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.icone_two::before {
+    content: url(img/icone_two.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.icone_three::before {
+    content: url(img/icone_three.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.icone_four::before {
+    content: url(img/icone_four.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+                                                        /* FIN CSS ANAIS */
+
+                                                          /* DEBUT CSS TAYLOR */
+  
+#middle{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.fulltext{
+    width:50%;
+    display: flex;
+    background-color:#222222;
+    color: white;
+    flex-wrap: wrap;
+}
+.bureau{
+    width: 100%;
+}
+
+.box{
+   width:50%; 
+   height: auto;
+   overflow: hidden;
+}
+
+.text2{
+    font-family:'gothamlight';
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.text3{
+    font-family: 'gothambook';
+    margin-top: 130px;
+    margin-left: -190px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.text4{
+    font-family:'gothamlight' ;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: -120px;
+    line-height: 25px;
+}
+
+.fulltext2{
+    width:50%;
+      display: flex;
+    background-color: #f3f3f3;
+    color: #222222;
+    flex-wrap: wrap;
+}
+
+.box2{
+    width:50%; 
+    overflow: hidden;
+}
+
+.grandb{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.letsblog{
+    font-family: 'gothambook';
+    text-transform: uppercase;
+    margin-top: -148px;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+
+.phrasefinish{
+    font-family:'gothambook';
+    text-align: center;
+    margin-top: 150px;
+    font-size: 5px;
+}
+
+.box2{
+    width:50%; 
+    overflow: hidden;
+}
+
+.grandb{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.letsblog{
+    font-family: 'gothambook';
+    text-transform: uppercase;
+    margin-top: -148px;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+}
+.phrasefinish{
+    font-family:'gothambook';
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+                                                /* FIN CSS TAYLOR */
+
+                                                        /* DEBUT CSS ABDOU */
+  
+.main {
+    display:flex;
+    justify-content: space-between;
+    margin-right:5px;
+    border-radius: .5em;
+    padding: 10px;
+    margin: 10em;
+    text-align:center;
+    font-family: 'gothambook';
+}
+ 
+.kyll{
+    color:#db5971 ;
+}
+
+.luky{
+    color: black;
+}
+
+#slider{
+    float: left;
+    width:15%;
+    height: auto;
+}
+
+.slider img{
+    max-height:290px;
+}
+
+#slider figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 25s slidy infinite;
+}
+
+#slider figure img {
+    width: 20%; 
+    height: auto; 
+    float: left; 
+}
+
+#slider { 
+    width: 93%;
+     max-width: 1000px; 
+     overflow: hidden 
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+.titre-red{
+    color:#db5971; 
+}
+
+.hiill{
+    color:black;
+}
+
+.zak{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #d21242;
+    height: 353px;
+    padding: 10px ;
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40% ;
+}
+
+.picture-left{
+  position: relative;
+  margin-left: 100px;
+ 
+}
+
+/* .ki {
+  position: absolute;
+  margin-left:300px;
+  text-align: left;
+} */
+
+.picture-leftt{
+  position: relative;
+  margin-left: 100px;
+
+}
+
+/* .ka {
+  position: absolute;
+  margin-left:1020px;
+  text-align: left;
+} */
+
+.sim{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 109px;
+  padding: 10px ;
+}
+
+.soh {
+  position: absolute;
+  margin-left:250px;
+  text-align: left;
+}
+
+.myr {
+  position: absolute;
+  margin-left:1200px;
+  text-align: block;
+}
+.text_icone{
+    margin-left: 50px;
+}
+
+.text_icone2{
+    margin-left: 50px;
+}
+
+
+                                        /* FIN CSS ABDOU */
+                                      
+
+
